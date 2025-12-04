@@ -44,7 +44,17 @@ cd codesigner
 pip install cryptography
 ```
 
-## 📖 Guide d'utilisation
+## 🖥️ Interface Graphique (GUI)
+
+Pour utiliser la version graphique de l'outil (nécessite `tkinter`):
+
+```bash
+python codesigner_gui.py
+```
+
+L'interface vous permet de générer des clés, signer des fichiers et vérifier les signatures via des onglets intuitifs.
+
+## 📖 Guide d'utilisation (Ligne de commande)
 
 ### Génération des clés (Développeur)
 
